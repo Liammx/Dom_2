@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner h1{
+    color: #fff;
+    font-size: 48px;
+}
+.conteiner .btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all , 1s;
+}
+.input{
+    position: absolute;
+    left: 400px;
+}
